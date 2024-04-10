@@ -4,9 +4,9 @@ This project implements a synchronized bitonic sort algorithm using C++ threads 
 
 ## Project Details
 
-**Objective: Refactor the provided sequential bitonic sort into a parallel version using custom synchronization barriers.**
-**Techniques Used: Utilized a mutex and a condition variable to design the barrier for synchronization.**
-**Performance Enhancement: Achieved a 7x speedup compared to the serial version by parallelizing the sorting process efficiently.**
+**Objective:** Refactor the provided sequential bitonic sort into a parallel version using custom synchronization barriers.  
+**Techniques Used:** Utilized a mutex and a condition variable to design the barrier for synchronization.  
+**Performance Enhancement:** Achieved a 7x speedup compared to the serial version by parallelizing the sorting process efficiently.
 
 ### Background
 The synchronized bitonic sort algorithm utilizes C++ threads for parallel processing and a custom Barrier class for synchronization. The implementation aims to evenly distribute work across multiple threads, enhancing sorting performance for large datasets.
